@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.post{
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+	background-color: blueviolet;
+}

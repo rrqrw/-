@@ -1,0 +1,8 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+#post{
+	border: 0 solid #eee;
+	width: 1300px;
+	width: 900px;
+	background-color: blueviolet;
+}

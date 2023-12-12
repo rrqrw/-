@@ -1,0 +1,67 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>포토 카드 레이아웃</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .photo-card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    .photo-card {
+      width: 200px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+
+    .photo-card img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="photo-card-container">
+    <div class="photo-card">
+      <img src="your_image_url_1.jpg" alt="Photo 1">
+      <p>Photo 1 description</p>
+    </div>
+
+    <div class="photo-card">
+      <img src="your_image_url_2.jpg" alt="Photo 2">
+      <p>Photo 2 description</p>
+    </div>
+
+    <div class="photo-card">
+      <img src="your_image_url_3.jpg" alt="Photo 3">
+      <p>Photo 3 description</p>
+    </div>
+
+    <div class="photo-card">
+      <img src="your_image_url_4.jpg" alt="Photo 4">
+      <p>Photo 4 description</p>
+    </div>
+
+    <!-- Repeat the above structure for more photo cards -->
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.main{
+	margin: 0 auto;
+	width: 1000px;
+	height: 500px;
+	background-color: blueviolet;
+}

@@ -1,0 +1,65 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet"  href="../test/css/bootstrap.css">
+  <link rel="stylesheet" href="../test/css/style2.css">
+  <script src="js/bootstrap.js"></script>
+  
+</head>
+<body>
+  <div class="container">
+    <div class="menu">
+    <ul>
+      <li><a href="who1.jsp">어디서 놀랭?</a></li>
+      <li><a href="who2.jps">뭐하고 놀랭?</a></li>
+      <li><a href="who3.jsp">누구랑 놀랭?</a></li>
+    </ul>
+  </div>
+    <div class="row my-4">
+      <div class="col-4">
+        <div class="card" >
+          <a href="../instar/instar.jsp"><img src="images/1.jpg" class="card-img-top" alt="..."></a>
+          
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" >
+          <img src="../resources/images/img2.jpg" class="card-img-top" alt="...">
+          
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" >
+          <img src="../resources/images/img2.jpg" class="card-img-top" alt="...">
+         
+        </div>
+      </div>
+    </div>
+    <div class="row my-4">
+      <div class="col-4">
+        <div class="card" >
+          <img src="../resources/images/img2.jpg" class="card-img-top" alt="...">
+          
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" >
+          <img src="../resources/images/img2.jpg" class="card-img-top" alt="...">
+          
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card" >
+          <img src="../resources/images/img2.jpg" class="card-img-top" alt="...">
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

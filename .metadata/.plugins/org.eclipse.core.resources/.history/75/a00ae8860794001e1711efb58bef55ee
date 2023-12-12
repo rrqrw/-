@@ -1,0 +1,6 @@
+@charset "UTF-8";
+#post{
+	border: 0 solid #eee;
+	width: 1300px;
+	width: 900px;
+}

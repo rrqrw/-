@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>중단 만들기</title>
+<link rel="stylesheet" href="../resources/css/style.css">
+
+<script type="text/javascript" src="../resources/js/mid.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+<div class="special_box" style="">
+				<div class="bg" style="background: rgb(244, 244, 244);"></div>
+				<div class="cont">
+					<em class="tag">EVENT ♥</em>
+					<h2 class="mtit"><a href="javascript:mainLogAndMove('b1f1d84c-e1cf-11ed-b570-0242ac1b0002','https://korean.visitkorea.or.kr/list/travelinfo.do?service=event');">국내 여행! <br> 풍성한 혜택이 가득</a></h2>
+					<p class="stit">아름다운 대한민국 구석구석으로 떠나보세요! </p>
+					<span class="day">2023. 10. 27. ~ 2023. 12. 31.</span>
+					<span class="img"><img src="../resources/images/img2.jpg" alt="국내 여행! <br> 풍성한 혜택이 가득"></span>
+					<div class="list">
+						<div class="menu type1">
+							<div class="swiper-container swiper-container-initialized swiper-container-horizontal">
+								<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(305.211px, 0px, 0px);"><div class="swiper-slide on swiper-slide-active" style="margin-right: 10px;"><a href="javascript:;" onclick="pavilion.changeTab(this);">국내여행 이벤트 &amp; 혜택 모아보기</a></div></div>
+								<div class="swiper-button-prev swiper-button-disabled swiper-button-lock" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">이전</div>
+								<div class="swiper-button-next swiper-button-disabled swiper-button-lock" tabindex="0" role="button" aria-label="Next slide" aria-disabled="true">다음</div>
+							<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+						</div>
+						<ul class="banner">
+						<li class="swiper-container swiper-container-initialized swiper-container-horizontal" style="visibility: visible; left: -9999px;">
+					<div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-active" style="margin-right: 20px;"><a href="javascript:mainLogAndMove('b1f1d84c-e1cf-11ed-b570-0242ac1b0002', 'https://korean.visitkorea.or.kr/detail/event_detail.do?cotid=b092e429-e505-48a3-9b43-5084658b3427')">
+						<img src="../resources/images/pic1.jpg" alt="undefined"></a></div><div class="swiper-slide swiper-slide-next" style="margin-right: 20px;"><a href="javascript:mainLogAndMove('b1f1d84c-e1cf-11ed-b570-0242ac1b0002', 'https://korean.visitkorea.or.kr/detail/event_detail.do?cotid=cf339089-e4ab-4f4b-a205-006fb3b09d41')">
+						<img src="../resources/images/pic2.jpg" alt="undefined"></a></div><div class="swiper-slide" style="margin-right: 20px;"><a href="javascript:mainLogAndMove('b1f1d84c-e1cf-11ed-b570-0242ac1b0002', 'https://korean.visitkorea.or.kr/detail/event_detail.do?cotid=2998197e-5c52-471b-a4e0-a1a33e73f3ee')">
+						<img src="../resources/images/pic3.jpg" alt="undefined"></a></div><div class="swiper-slide" style="margin-right: 20px;"><a href="javascript:mainLogAndMove('b1f1d84c-e1cf-11ed-b570-0242ac1b0002', 'https://korean.visitkorea.or.kr/detail/event_detail.do?cotid=bd62967c-6db0-46dd-8935-074dde6329c7')">
+						<img src="../resources/images/pic4.jpg" alt="undefined"></a></div><div class="swiper-slide" style="margin-right: 20px;"><a href="javascript:mainLogAndMove('b1f1d84c-e1cf-11ed-b570-0242ac1b0002', '/detail/detail_view.do?cotid=61d08596-f772-48f6-876a-250b4e3e3f68')">
+						<img src="../resources/images/pic5.jpg" alt="undefined"></a></div><div class="swiper-slide" style="margin-right: 20px;"><a href="javascript:mainLogAndMove('b1f1d84c-e1cf-11ed-b570-0242ac1b0002', 'https://korean.visitkorea.or.kr/detail/event_detail.do?cotid=bd71641c-eaf2-4f64-90d9-b36b6ee4f4a7')">
+						<img src="../resources/images/pic6.jpg" alt="undefined"></a></div><div class="swiper-slide" style="margin-right: 20px;"><a href="javascript:mainLogAndMove('b1f1d84c-e1cf-11ed-b570-0242ac1b0002', 'https://korean.visitkorea.or.kr/detail/event_detail.do?cotid=c901e21a-ccba-4a80-8e0c-4d860aa1133d')">
+						<img src="../resources/images/pic7.jpg"alt="undefined"></a></div></div>
+						<div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">이전</div>
+						<div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="true">다음</div>
+					<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></li></ul>
+					</div>
+				</div>
+			</div>
+			
+
+</body>
+</html>
